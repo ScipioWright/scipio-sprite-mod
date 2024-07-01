@@ -1,10 +1,8 @@
-# moss-mod
-Mod for a Moss player sprite, replacing the regular player sprite.
-
-Created for Snooch.
+# scipio-sprite-mod
+Mod for myself, but others can use it too.
 
 # Installation Instructions
 
-Unzip the folder and drag it into your Noita mods folder.
+Install it from the Steam Workshop.
 
-The folder should be called ``moss-mod`` and it should contain init.lua, mod.xml, and other files.
+Alternatively, unzip the mod folder into your `Noita/mods` folder.
