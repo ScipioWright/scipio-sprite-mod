@@ -1,0 +1,33 @@
+<Entity name="belt" >
+	<InheritTransformComponent
+        parent_hotspot_tag="belt_root" >
+		<Transform 
+			position.x="2.5"
+			position.y="0"
+			update_transform="0"
+			update_transform_rotation="0"
+			>
+		</Transform>
+    </InheritTransformComponent>  
+   
+    <VerletPhysicsComponent
+    	num_points="20"
+		width="1"
+    	stiffness="1.5"
+		velocity_dampening=".8"
+    	resting_distance="3"
+    	pixelate_sprite_transforms="0"
+    	simulate_wind="1"
+        wind_change_speed="0.06"
+    	simulate_gravity="1"
+		collide_with_cells="1"
+		constrain_stretching="1"
+		>
+    </VerletPhysicsComponent>
+
+	<Base file="mods/Scipio-Sprite-Mod/scipio/tail/tail_parts/tail_verlet_1.xml" />
+	<Base file="mods/Scipio-Sprite-Mod/scipio/tail/tail_parts/tail_verlet_2.xml" />
+	<Base file="mods/Scipio-Sprite-Mod/scipio/tail/tail_parts/tail_verlet_2.xml" />
+	<Base file="mods/Scipio-Sprite-Mod/scipio/tail/tail_parts/tail_verlet_3.xml" />
+	<Base file="mods/Scipio-Sprite-Mod/scipio/tail/tail_parts/tail_verlet_4.xml" />
+</Entity>

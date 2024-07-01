@@ -1,0 +1,3 @@
+mods/Scipio-Sprite-Mod/mods/Scipio-Sprite-Mod/scipio/ragdolls/head.png
+mods/Scipio-Sprite-Mod/mods/Scipio-Sprite-Mod/scipio/ragdolls/left_hand.png
+mods/Scipio-Sprite-Mod/mods/Scipio-Sprite-Mod/scipio/ragdolls/right_hand.png
