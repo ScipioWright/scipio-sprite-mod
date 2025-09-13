@@ -45,7 +45,8 @@ function OnPlayerSpawned(player_entity)
 	local player_ragdoll_file = "mods/Scipio-Sprite-Mod/scipio/ragdolls/filenames.txt"
 	ComponentSetValue(player_ragdoll_comp, "ragdoll_filenames_files", player_ragdoll_file)
 
-	local tail_id = EntityLoad("mods/Scipio-Sprite-Mod/scipio/tail/verlet_tail.xml")
+	local player_x, player_y = EntityGetTransform(player_entity)
+	local tail_id = EntityLoad("mods/Scipio-Sprite-Mod/scipio/tail/verlet_tail.xml", player_x, player_y)
 	EntityAddChild(player_entity, tail_id)
 
 	if ModSettingGet("scipio-sprite-mod.cape_toggle") then
